@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo1.png" alt="logo1">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Chemical Engineer</p>
+          <h1>hi, I'm <span>Abeer Fatima</span><br>from Pakistan</h1>  
+        </div>
+    </div>
+</div>
+<!--------about-------->
+<div id="about"></div>
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+           <img src="image/aboutme.jpg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>An enthusiastic fresher who is a fresh starter and capable of using interpersonal and analytical skills for the betterment of workplace with an ability to perceive the situations in realistic way.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+               <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>MATLAB</span><br>I can solve all numerical methods and chemical engineering problems on MATLAB</li>
+                  <li><span>ASPEN PLUS</span><br>I can Model/design any type of industrial process on ASPEN PLUS </li>
+                  <li><span>VISIO</span><br>Proficient in drawing PFDs on VISIO</li>
+                  <li><span>Creo</span><br>I can make 3D,2D schemetic designs on Creo</li>
+                  <li><span>C-Programing</span><br>I am on Intermediate level in C-language</li>
+                  <li><span>MICROSOFT</span><br>Word,Excel,Powerpoint</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>Internship(August2023-September2023)</span><br>Ibrahim Fibres Limited(IFL)</li>
+                  <li><span>Internship(August2022-September2022)</span><br>International Polymer INdustries</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2020-2024</span><br>BS Chemical Engineering from PIEAS</li>
+                  <li><span>2018-2020</span><br>Intermediate</li>
+                  <li><span>2016-2018</span><br>Matriculation</li>
+                </ul>
+               </div>
+        </div>
+    </div> 
+</div>
+<!-------projects-------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>  
+        <div class="projects-list">
+            <div>
+                <!------<i class="fas fa-code"></i>----->
+                <h2>Project 1</h2>
+                <h3>Design of an energy efficient plant for CO2 capturing and utilization</h3>
+                <p>Integrated flowsheets were developed on ASPEN plus for CO2 capturing plant, hydrogen production, then from hydrogenation of CO2 methanol production flowsheet was developed and from dehydration of methanol Dimethyl ether flowsheet was produced</p>
+              </div><div>
+                <!------<i class="fas fa-code"></i>----->
+                <h2>Project 2</h2>
+                <h3>Undergraduate research on comparison of Life Cycle Assessment(LCA) datasets</h3>
+                <p>Conducted a comparative analysis of Life Cycle Assessment (LCA) datasets, evaluating methodologies, data quality, and environmental impact results</p>
+              </div>
+
+          <div>
+            <!------<i class="fas fa-code"></i>----->
+            <h2>Project 3</h2>
+            <h3>Manufacturing of polyethylene by dehydration of ethanol</h3>
+            <p>Applied material and energy balance to this system for maximum yield of polyethylene at specified
+                conditions for temperature</p>
+           
+          </div>  
+          <div>
+           <!----<i class="fas fa-crop-alt"></i>---->
+            <h2>project 4</h2>
+            <h3>Designed the pipeline system of a society</h3>
+            <p>Designed an efficient water distribution pipeline system for a community, optimizing water flow and 
+                incorporating pump technology to serve multiple residences</p>
+        
+          </div> 
+          <div>
+            <!------<i class="fab fa-app-store"></i>---->
+            <h2>project 5</h2>
+            <h3>Proposed the solution for a real industrial based problem for the stack of cement industry</h3>
+            <p>It reflected two transport mechanisms, a complete mass, energy and cost balance was performed, developed a real-world solution for an 
+                industrial challenge in the cement industry. Temperature profile was calculated using Energy equation 
+                while mass transfer was evaluated using Ficks law</p>
+          
+          </div> 
+          <div>
+            <!------<i class="fas fa-code"></i>----->
+            <h2>Project 6</h2>
+            <h3>Comprehensive study of the unit operations involved in the sampling, processing and storage of copper mining</h3>
+            <p>ALed a comprehensive study on unit operations integral to the sampling, processing, and storage of copper 
+                mining, showcasing proficiency in analyzing and optimizing key processes for enhanced operational 
+                efficiency.
+                </p>
+           
+          </div>  
+        </div>
+    </div>
+</div>
+<!--------work-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work1.png">
+                <div class="layer">
+                    <h3> CO2 capture flowsheet on ASPEN plus</h3>
+                    <p>Captured using two absorbers with intercooling</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work2.png">
+                <div class="layer">
+                    <h3>Hydrogen production flowsheet on ASPEN Plus</h3>
+                    <p>SOEC(solid oxide electrolyzer) model was used</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work3.png">
+                <div class="layer">
+                    <h3>methanol production flowsheet on ASPEN Plus</h3>
+                    <p>Catalytic bed reactor was used</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!------contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>abeerfatima2237@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +923118823119</p>
+        
+                 <a href="image/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright by abeer</p>
+    </div>
+</div>
+ 
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxkQXfQLjAJFra34isiN5fUJjEKgWUbFtW_MvBaK_2-eK7Egu6aQh-tTZQJrpdSqN8b/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>   
+</html>
